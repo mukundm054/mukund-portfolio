@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.dropdown {
+  margin-right: 70px;
+}
+
+h1 {
+  color: #0f1b2b;
+}
+
+h2 {
+  color: #185adb;
+}
+
+p {
+  color: #112d4e;
+}
+
+.box {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 30px;
+  padding: 50px 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+}
+
+.resume {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.resume:hover {
+  background-color: #0a66c2;
+}
+
+#one {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  padding: 6px 12px;
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact:hover {
+  background-color: #0a66c2;
+}
+
+#alert {
+  width: 350px;
+  background: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#close {
+  padding: 6px 12px;
+  background-color: #1d9bf0;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+#close:hover {
+  background-color: #0a66c2;
+}
+
+/*section 2*/
+
+#more {
+  padding: 6px 12px;
+  background-color: #1d9bf0;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+#more:hover {
+  background-color: #0a66c2;
+}
+
+#goals {
+  display: none;
+}
+
+#goal {
+  display: none;
+}
+
+#Interests {
+  display: none;
+}
+
+#activity {
+  display: none;
+}
+
+#why {
+  display: none;
+}
+
+#portfolio {
+  display: none;
+}
+
+#less {
+  display: none;
+  padding: 6px 12px;
+  background-color: #1d9bf0;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+#less:hover {
+  background-color: #0a66c2;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}

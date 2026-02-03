@@ -4,7 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mukund Madhav — Portfolio</title>
+    <meta
+      name="description"
+      content="Mukund Madhav's portfolio showcasing skills, education, and contact details."
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,11 +25,11 @@
   </head>
   <body>
     <header>
-      <nav class="navbar bg-body-tertiary black">
+      <nav class="navbar bg-body-tertiary black shadow-sm">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1 heading"
-            >Welcome to My Portfolio</span
-          >
+          <span class="navbar-brand mb-0 h1 heading">
+            Welcome to My Portfolio
+          </span>
 
           <div class="dropdown">
             <button
@@ -53,20 +63,29 @@
       </nav>
     </header>
     <main>
-      <section class="box">
-        <h1>Hi, I’m Mukund Madhav</h1>
-        <h2>CSE Student | Web Development Learner</h2>
-        <p class="desciption">
+      <section class="box hero">
+        <div class="hero-content">
+          <p class="eyebrow">Hello!</p>
+          <h1>Hi, I’m Mukund Madhav</h1>
+          <h2>CSE Student | Web Development Learner</h2>
+          <p class="desciption">
           I am a dedicated CSE student who loves exploring programming,
           technology, and web development. I enjoy learning new concepts,
           building practical projects, and improving my problem-solving
           abilities. My goal is to grow every day, gain strong technical skills,
           and create a successful future in technology sector.
-        </p>
+          </p>
 
-        <div class="buttons">
-          <button class="resume"><a id="one" href="">Download</a></button>
-          <button class="contact" id="btn">Contact</button>
+          <div class="buttons">
+            <a
+              class="btn resume"
+              href="resume/Mukund-Madhav-Resume.pdf"
+              download
+            >
+              Download Resume
+            </a>
+            <button class="btn contact" id="btn">Contact</button>
+          </div>
         </div>
       </section>
       <div id="alert">

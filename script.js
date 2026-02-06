@@ -2,14 +2,17 @@
 
 let op = document.getElementById("btn");
 let overlay = document.getElementById("alert");
+let backdrop = document.getElementById("contact-overlay");
 let cl = document.getElementById("close");
 
 op.addEventListener("click", () => {
   overlay.style.display = "block";
+  backdrop.style.display = "block";
 });
 
 cl.addEventListener("click", () => {
   overlay.style.display = "none";
+  backdrop.style.display = "none";
 });
 
 //read- more and read less
